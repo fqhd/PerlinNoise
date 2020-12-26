@@ -1,1 +1,1 @@
-clang++ main.cpp -o a.out
+g++ main.cpp -o a.out
