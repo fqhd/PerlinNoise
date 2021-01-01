@@ -51,8 +51,8 @@ void Perlin::createRandomNoise(float* noise, unsigned int size){
      }
 }
 
-void Perlin::noise2D(unsigned int x, unsigned int y){
-     m_noise[m_width * y + x];
+float Perlin::noise2D(unsigned int x, unsigned int y){
+     return m_noise[m_width * y + x];
 }
 
 void Perlin::destroy(){

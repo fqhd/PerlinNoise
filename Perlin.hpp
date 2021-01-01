@@ -5,7 +5,7 @@ class Perlin {
 public:
 
      void init(unsigned int width, unsigned int octaves, float bias);
-     void noise2D(unsigned int x, unsigned int y);
+     float noise2D(unsigned int x, unsigned int y);
      void destroy();
 
 private:
